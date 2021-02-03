@@ -1,11 +1,11 @@
-OpenClassrooms P6 - API backend SoPekocko "Piquante"
-6ème projet de la formation de développeur web de OpenClassrooms
+# OpenClassrooms Projet 6 - API backend SoPekocko "Piquante" - Formation développeur web
 
-Scénario:
+## Scénario
+
 Développement d'une application web nommée "Piquante" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres utilisateurs.
 Le but est de créer le backend de l'application, le frontend étant déjà codé et fourni.
 
-Objectifs du projet et compétences évaluées:
+## Objectifs du projet et compétences évaluées
 Développement Backend en Javascript:
 
 - Serveur Node.js
@@ -25,7 +25,7 @@ Développement Backend en Javascript:
 - Protection des headers avec helmet
 - Utilisation de "express rate limit" pour limiter le nombre de tentative de connexion à 3, toutes les 5 minutes.
 
-Pour tester l'application:
+### Pour tester l'application:
 
 ⚠️ ATTENTION, node-sass est a installer à part dans le front-end (npm i node-sass@4.14.1)
 
@@ -35,7 +35,7 @@ Installer les dépendances: npm install
 Lancer: ng serve
 Cloner ce repository backend actuel ⬇️
 
-Ajouter un fichier de configuration nommé ".env" à la racine du backend. A l'intérieur, 5 variables d'environnement "secrètes" seront définies:
+Ajouter un fichier de configuration nommé ".env" à la racine du backend. A l'intérieur, 4 variables d'environnement "secrètes" seront définies:
 
 MONGODB_CONNECT = 'mongodb+srv://Moi:moi@p6.h72um.mongodb.net/PiquanteDB?retryWrites=true&w=majority'
 CLE_EMAIL = 'Clé_secrète_de_cryptage_d'email'
