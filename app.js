@@ -19,6 +19,7 @@ mongoose.connect(process.env.MONGODB_CONNECT,
 
 const app = express();
 
+// Autorisation des headers
 app.use((request, response, next) => {
     response.setHeader('Access-Control-Allow-Origin', process.env.HEADER_AUTORISE);
     response.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization');
