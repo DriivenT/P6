@@ -27,7 +27,7 @@ Développement Backend en Javascript:
 
 ### Pour tester l'application:
 
-⚠️ ATTENTION, node-sass est a installer à part dans le front-end (npm i node-sass@4.14.1)
+⚠️ ATTENTION, node-sass est a installer à part dans le front-end (`npm i node-sass@4.14.1`)
 
 Cloner le frontend (https://github.com/OpenClassrooms-Student-Center/dwj-projet6) de l'application, et le lancer:
 Dans un terminal, accéder au dossier du frontend
