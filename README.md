@@ -37,10 +37,10 @@ Cloner ce repository backend actuel ⬇️
 
 Ajouter un fichier de configuration nommé ".env" à la racine du backend. A l'intérieur, 4 variables d'environnement "secrètes" seront définies:
 
-MONGODB_CONNECT = 'mongodb+srv://Moi:moi@p6.h72um.mongodb.net/PiquanteDB?retryWrites=true&w=majority'
-CLE_EMAIL = 'Clé_secrète_de_cryptage_d'email'
-TOKEN_SECRET = 'Token_secret_aléatoire'
-HEADER_AUTORISE = '*'
+- MONGODB_CONNECT = 'mongodb+srv://Moi:moi@p6.h72um.mongodb.net/PiquanteDB?retryWrites=true&w=majority'
+- CLE_EMAIL = 'Clé_secrète_de_cryptage_d'email'
+- TOKEN_SECRET = 'Token_secret_aléatoire'
+- HEADER_AUTORISE = '*'
 
 Lancer le backend
 Dans un autre terminal, accéder au dossier du backend
