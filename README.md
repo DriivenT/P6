@@ -42,10 +42,11 @@ Ajouter un fichier de configuration nommé ".env" à la racine du backend. A l'i
 - TOKEN_SECRET = 'Token_secret_aléatoire'
 - HEADER_AUTORISE = '*'
 
-- Lancer le backend
-- Dans un autre terminal, accéder au dossier du backend
-- Installer les dépendances: npm install
-- Lancer node server
+Puis:
+1) Lancer le backend
+2) Dans un autre terminal, accéder au dossier du backend
+3) Installer les dépendances: npm install
+4) Lancer node server
 
 Le frontend est accessible à l'adresse http://localhost:4200 ,
 Pour des tests spécifiques (avec postman par exemple), le backend répond à l'adresse: http://localhost:3000 (attention: authentification requise pour toutes les routes /api/sauces/)
