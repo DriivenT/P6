@@ -29,11 +29,11 @@ Développement Backend en Javascript:
 
 ⚠️ ATTENTION, node-sass est a installer à part dans le front-end (`npm i node-sass@4.14.1`)
 
-Cloner le frontend (https://github.com/OpenClassrooms-Student-Center/dwj-projet6) de l'application, et le lancer:
-Dans un terminal, accéder au dossier du frontend
-Installer les dépendances: npm install
-Lancer: ng serve
-Cloner ce repository backend actuel ⬇️
+- Cloner le frontend (https://github.com/OpenClassrooms-Student-Center/dwj-projet6) de l'application, et le lancer:
+- Dans un terminal, accéder au dossier du frontend
+- Installer les dépendances: npm install
+- Lancer: ng serve
+- Cloner ce repository backend actuel ⬇️
 
 Ajouter un fichier de configuration nommé ".env" à la racine du backend. A l'intérieur, 4 variables d'environnement "secrètes" seront définies:
 
